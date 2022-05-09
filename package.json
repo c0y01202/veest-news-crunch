@@ -1,0 +1,30 @@
+{
+  "name": "veest-news-crunch",
+  "version": "1.0.0",
+  "description": "conflict_news_feed",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c0y01202/veest-news-crunch.git"
+  },
+  "keywords": [
+    "Project",
+    "2"
+  ],
+  "author": "Claudia Chittim, Michael Gaytan, Veronica Kolesnikov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/c0y01202/veest-news-crunch/issues"
+  },
+  "homepage": "https://github.com/c0y01202/veest-news-crunch#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "handlebars": "^4.7.7",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.19.0"
+  }
+}
