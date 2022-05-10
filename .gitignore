@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 */package-lock.json
 /.env
+=======
+**/package-lock.json
+>>>>>>> 6095f52950bef1781b6f68d5b5a677859ace134e
 
 # Logs
 logs
