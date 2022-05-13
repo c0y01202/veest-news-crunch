@@ -33,5 +33,6 @@
     "mysql2": "^2.3.3",
     "prettier": "^2.6.2",
     "sequelize": "^6.19.0"
-  }
+  },
+  "devDependencies": {}
 }
