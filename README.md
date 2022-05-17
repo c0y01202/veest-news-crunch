@@ -26,6 +26,7 @@ The following node packages are required for the application:
 9. bcrypt
 10. express-session
 11. connect-session-sequelize
+12. Socket
 
 ## Technologies Used:
 
