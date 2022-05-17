@@ -1,46 +1,51 @@
-# CHATTER-VERSE:speech_balloon:
-  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-## PURPOSE:exclamation:
-User-Story: AS a traveler outside of the US, <br>
-I WANT to be able to message/chat internationally<br>
- SO THAT I can keep in touch with family, friends, and coworkers at any location.
+# CHATTER VERSE:speech_balloon:
+
+## PURPOSE:
+
+The purpose of Chatter Verse is to offer a chat website that can be used on desktop or mobile to keep family and friends in touch. The target audience are for people who travel internationally who want to keep in touch and chat on a newer private forum. Chatter Verse includes a login page, a dynamically generated HTML main page and a log out page.
+
 ## Table of Contents::mag:
-   1. [ Installation ](#installation)
-   2. [ Usage ](#usage)
-   3. [ License ](#license)
-   4. [ Heroku ](#heroku)
 
- ## Installation:
+1.  [ Installation ](#installation)
+2.  [ Usage ](#usage)
+3.  [ License ](#license)
+4.  [ Heroku ](#heroku)
 
-   To install dependancies, run the following commands:
+## Installation:
 
-     ```
-     npm install:
-    express
-    node
-    heroku
-    sequelize
-    mysql2
-    express-handlebars
-    init
-    dotenv
-    bcrypt
-    express-session
-    connect-session-sequelize
-     ```
-                      
- ## Usage:
+The following node packages are required for the application:
 
-    For usage, please make sure to add comments and submit merge requests to Github.com.
+1. express
+2. node
+3. heroku
+4. sequelize
+5. mysql2
+6. express-handlebars
+7. init
+8. dotenv
+9. bcrypt
+10. express-session
+11. connect-session-sequelize
+12. Socket
 
+## Technologies Used:
 
-## License: 
+1. MEAN stack
+2. Sockets to enable one-on one communication
+3. AJAX
 
-     Apache-2.0 
+## To Run The Application:
 
-   [Link to Apache-2.0 license](https://opensource.org/licenses/Apache-2.0)
+To run the application source the database in MySql then seed the database with 'node seeds'. Once that is complete simply type in 'npm start' in the terminal to run the application on the server. You can also access the application on the Heroku server given the link below.
 
+## Usage:
+
+For usage, please make sure to add comments and submit merge requests to Github.com.
+
+## Authors:
+
+Claudia Chittim, Michael Gaytan and Veronika Kolesnikov, Copyright 2022.
 
 ## Heroku:heavy_plus_sign:
-   See my repo deployed to [Heroku.com](https://git.heroku.com/still-citadel-61156.git)
 
+See my repo deployed to [Heroku.com](https://git.heroku.com/still-citadel-61156.git)
