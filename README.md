@@ -1,3 +1,5 @@
+![login_page](https://user-images.githubusercontent.com/97765679/169160897-310298c6-408c-4157-8448-ab505773b078.png)
+![main_dashboard](https://user-images.githubusercontent.com/97765679/169160917-213579ec-e5d1-410c-9890-ae4c6d5d63c2.png)
 # CHATTER VERSE:speech_balloon:
 
 ## PURPOSE:
