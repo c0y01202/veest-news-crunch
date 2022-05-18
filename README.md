@@ -49,5 +49,5 @@ For usage, please make sure to add comments and submit merge requests to Github.
 Claudia Chittim, Michael Gaytan and Veronika Kolesnikov, Copyright 2022.
 
 ## Heroku:heavy_plus_sign:
+https://still-citadel-61156.herokuapp.com/
 
-See my repo deployed to [Heroku.com](https://git.heroku.com/still-citadel-61156.git)
