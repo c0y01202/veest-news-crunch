@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
   <title>CHATTER-VERSE</title>
   <link rel="icon" type="image/x-icon" href="views/images/v-favicon.ico">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -70,4 +71,39 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
   <script src="/javascript/logout.js"></script>
 </body>
+=======
+  <title>MVC Tech Blog</title>
+  <link rel="stylesheet" href="/public/style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+      <header class="hero">
+          <div>
+            <nav class"nav">
+                    <a class="link" href="/">Home</a>
+                    <a class="link" href="/dashboard">Dashboard</a>
+                    {{#if loggedIn}}
+                    <a class="link" href="/" id="logout">Logout</a>
+                    {{else}}
+                    <a class="link" href="/login">Login</a>
+                    {{/if}}
+                </nav>          
+          </div>
+
+          <h1 class="app-title"><i class="fab "></i>Chatter Verse</h1>
+      </header>
+
+    <main>
+      {{{ body }}}
+    </main>
+  </div>
+
+    {{#if loggedIn}}
+    <script src="/javascript/logout.js"></script>
+    {{/if}}
+
+</body>
+
+>>>>>>> claudia
 </html>
