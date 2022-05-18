@@ -42,5 +42,5 @@ I WANT to be able to message/chat internationally<br>
 
 
 ## Heroku:heavy_plus_sign:
-   See my repo deployed to [Heroku.com](https://git.heroku.com/still-citadel-61156.git)
+   See my repo deployed to [Heroku.com](https://still-citadel-61156.herokuapp.com/)
 
