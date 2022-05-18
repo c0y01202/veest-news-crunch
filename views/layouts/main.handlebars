@@ -4,68 +4,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CHATTER-VERSE</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
-  <link rel="stylesheet" href="https://jenil.github.io/bulmaswatch/solar/bulmaswatch.min.css">
+  <title>MVC Tech Blog</title>
   <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
 
 <body>
-  <div id="mainwrapper">
-  <header> 
-    <div id="logo" class="title is-1">
-    Chatter Verse</div>
-    {{!-- <nav> <a href="#" title="Link">Logout</a> <a href="#" title="Link">&nbsp;</a><a href="#" title="Link">&nbsp;</a> </nav> --}}
-  </header>
-  <div id="content">
-    <div class="notOnDesktop"> 
-    </div>
-    <section id="mainContent"> 
-      <h1>
-        Chatter Verse</h1>
-      <h3>Stay in Touch With Friends and Family</h3>
-      <div id="bannerImage"><img src="chatter_verse_image.png" alt=""/></div>
-      
-         <main>
+  <div class="wrapper">
+      <header class="hero">
+          <div>
+            <nav class"nav">
+                    <a class="link" href="/">Home</a>
+                    <a class="link" href="/dashboard">Dashboard</a>
+                    {{#if loggedIn}}
+                    <a class="link" href="/" id="logout">Logout</a>
+                    {{else}}
+                    <a class="link" href="/login">Login</a>
+                    {{/if}}
+                </nav>          
+          </div>
+
+          <h1 class="app-title"><i class="fab "></i>Chatter Verse</h1>
+      </header>
+
+    <main>
       {{{ body }}}
     </main>
-      <aside id="authorInfo"> 
-        <!-- The author information is contained here -->
-        <h2>Authors of this app:</h2>
-        <p>Claudia Chittim, Michael Gaytan and Veronica Kolesnikov</p>
-      </aside>
-    </section>
-   
-<footer> 
-      <article>
-        <h3>Add Photos</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      </article>
-      <article>
-        <h3>Create a Login</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      </article>
-    </footer>
   </div>
-  <div id="footerbar"><!-- Small footerbar at the bottom --></div>
-</div>
-</body>
-      <nav>
-         <button type="submit" class="btn">Login!</button>
-        <button id="logout" class="button is-outlined is-round">logout</button>
-      </nav>
 
-    <footer>
-      Thanks for visiting!
-    </footer>
-  </div>
-   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
-  <script src="/javascript/logout.js"></script>
+    {{#if loggedIn}}
+    <script src="/javascript/logout.js"></script>
+    {{/if}}
+
 </body>
+
+</html>
