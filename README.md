@@ -4,7 +4,7 @@
 
 ## PURPOSE:
 
-The purpose of Chatter Verse is to offer a chat website that can be used on desktop or mobile to keep family and friends in touch. The target audience are for people who travel internationally who want to keep in touch and chat on a newer private forum. Chatter Verse includes a login page, a dynamically generated HTML main page and a log out page.
+The purpose of Chatter Verse is to offer a chat website using the MVC paradigm that can be used on desktop or mobile to keep family and friends in touch. The target audience are for people who travel internationally who want to keep in touch and chat on a newer private forum. Chatter Verse includes a login page, a dynamically generated HTML main page and a log out page.
 
 ## Table of Contents::mag:
 
