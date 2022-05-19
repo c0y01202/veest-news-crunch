@@ -1,3 +1,4 @@
+
 ![main_dashboard](https://user-images.githubusercontent.com/97765679/169160731-b686facd-06e8-4848-a1cc-0974513f1f74.png)
 ![login_page](https://user-images.githubusercontent.com/97765679/169160763-9d87315b-ebf8-49db-b297-1156240097d2.png)
 # CHATTER VERSE:speech_balloon:
@@ -12,6 +13,8 @@ The purpose of Chatter Verse is to offer a chat website that can be used on desk
 2.  [ Usage ](#usage)
 3.  [ License ](#license)
 4.  [ Heroku ](#heroku)
+
+![file_structure](https://user-images.githubusercontent.com/97765679/169191263-c84a89ff-2e3a-48fa-969f-05da99a2ca02.png)
 
 ## Installation:
 
