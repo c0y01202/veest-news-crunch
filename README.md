@@ -1,10 +1,11 @@
+
 ![login_page](https://user-images.githubusercontent.com/97765679/169160897-310298c6-408c-4157-8448-ab505773b078.png)
 ![main_dashboard](https://user-images.githubusercontent.com/97765679/169160917-213579ec-e5d1-410c-9890-ae4c6d5d63c2.png)
 # CHATTER VERSE:speech_balloon:
 
 ## PURPOSE:
 
-The purpose of Chatter Verse is to offer a chat website that can be used on desktop or mobile to keep family and friends in touch. The target audience are for people who travel internationally who want to keep in touch and chat on a newer private forum. Chatter Verse includes a login page, a dynamically generated HTML main page and a log out page.
+The purpose of Chatter Verse is to offer a chat website using the MVC paradigm that can be used on desktop or mobile to keep family and friends up to date with current chats about web development. The target audience are for people who want to post information on new articles related to the technology industry. Chatter Verse includes a login page, a dynamically generated HTML main page and a log out page. It also keeps track of usernames and passwords.
 
 ## Table of Contents::mag:
 
@@ -12,6 +13,8 @@ The purpose of Chatter Verse is to offer a chat website that can be used on desk
 2.  [ Usage ](#usage)
 3.  [ License ](#license)
 4.  [ Heroku ](#heroku)
+
+![file_structure](https://user-images.githubusercontent.com/97765679/169191362-5244b039-d7e8-4a32-be05-2f00c67b857e.png)
 
 ## Installation:
 

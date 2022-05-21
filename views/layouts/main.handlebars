@@ -1,40 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chatterverse</title>
-  <link rel="stylesheet" href="/style.css">
+  <title>CHATTER-VERSE</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+  <link rel="stylesheet" href="https://jenil.github.io/bulmaswatch/solar/bulmaswatch.min.css">
+  <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
 
 <body>
-  <div class="wrapper">
-      <header class="hero">
-          <div>
-            <nav class"nav">
-                    <a class="link" href="/">Home</a>
+  <div id="mainwrapper">
+  <header> 
+  <div id="content">
+    <nav class="nav">
+          <a class="link" href="/">Home</a>
                     <a class="link" href="/dashboard">Dashboard</a>
                     {{#if loggedIn}}
-                    <a class="link" href="/" id="logout">Logout</a>
+                    <a class="link" href="/" <button id="logout" class="button is-outlined is-round" id="logout">Logout</a>
                     {{else}}
-                    <a class="link" href="/login">Login</a>
+                    <a class="link" <button id="login" class="button is-outlined is-round" href="/login">Login</a>
                     {{/if}}
-                </nav>          
-          </div>
+                </nav> 
+    <section class="hero is-fullheight is-link">
+  <div class="hero-body">
 
-          <h1 class="app-title"><i class="fab "></i>Chatter Verse</h1>
-      </header>
-
-    <main>
-      {{{ body }}}
-    </main>
+    <div class="">
+      <p class="title is-1 is-white">
+        Chatter Verse
+      </p>
+      
+      <p class="subtitle is-light is-italic">
+        connecting developers around the globe 
+      </p>
+      
+      <div class="box">
+    <div class="media-content">
+     
+      <form class="box">
+  <div class="field">
+    <label class="label">Username</label>
+    <div class="control">
+      <input class="input" type="username" placeholder="e.g. alex123">
+    </div>
   </div>
 
-    {{#if loggedIn}}
-    <script src="/javascript/logout.js"></script>
-    {{/if}}
+  <div class="field">
+    <label class="label">Password</label>
+    <div class="control">
+      <input class="input" type="password" placeholder="********">
+    </div>
+  </div>
+  <button class="button is-info is-rounded">Login</button> <br><br>
+  <button class="button is-outlined is-rounded is-link">Sign Up Instead!</button>
+</form>
+</div>
+</div>
+<section class="image is-right">
+        <figure class="image is-128x128 is-rounded is-left">
+  <img src="views/images/chatter_verse_image.png">
+</figure>
+</section>
+      </nav>
 
+      </section>
+      <div>
+      </div>
+
+    <footer>
+      <br>
+      <strong>Thanks for visiting!</strong>
+        <br>
+      <div class="end is-info">
+        <br />
+        &copy; 2022 Chatter Verse. By Claudia Chittim, Micheal Gaytan, & Veronica Kolesnikov
+      </div>
+    </footer>
+  </div>
+   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+  <script src="/javascript/logout.js"></script>
 </body>
-
-</html>
