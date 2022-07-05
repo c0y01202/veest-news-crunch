@@ -12,7 +12,7 @@ The purpose of Chatter Verse is to offer a chat website that can be used on desk
 1.  [ Installation ](#installation)
 2.  [ Usage ](#usage)
 3.  [ License ](#license)
-4.  [ Heroku ](#heroku)
+4.  [ Heroku:heavy_plus_sign: ](#heroku)
 
 ![file_structure](https://user-images.githubusercontent.com/97765679/169191263-c84a89ff-2e3a-48fa-969f-05da99a2ca02.png)
 
@@ -51,6 +51,6 @@ For usage, please make sure to add comments and submit merge requests to Github.
 
 Claudia Chittim, Michael Gaytan and Veronika Kolesnikov, Copyright 2022.
 
-## Heroku:heavy_plus_sign:
+## Heroku
 
-See my repo deployed to [Heroku.com](https://git.heroku.com/still-citadel-61156.git)
+See my repo deployed to [Heroku.com](https://still-citadel-61156.herokuapp.com/)
